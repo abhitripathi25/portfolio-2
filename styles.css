@@ -265,6 +265,91 @@ a{
         left:48%
     }
   }
+  /* Existing CSS code before responsiveness adjustments */
+
+/* Media query for responsiveness on mobile devices */
+@media screen and (max-width: 768px) {
+  .container {
+      width: 90%; /* Adjust container width for smaller screens */
+  }
+
+  .navitems {
+      flex-direction: column; /* Stack navigation items vertically */
+      padding: 1rem 0; /* Adjust padding for smaller screens */
+  }
+
+  .logotext {
+      margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  .logo {
+      width: 70px; /* Adjust logo size for smaller screens */
+  }
+
+  .hero {
+      flex-direction: column; /* Stack hero content vertically */
+      gap: 2rem; /* Adjust gap between elements */
+      margin: 2rem auto; /* Adjust margin for smaller screens */
+      padding: 0 1rem;
+      padding-bottom: 4rem; /* Adjust padding for smaller screens */
+  }
+
+  .fadedtext {
+      font-size: 3em; /* Adjust font size for smaller screens */
+      left: 50%; /* Center horizontally */
+      bottom: 5%; /* Adjust position from bottom */
+  }
+
+  .hl {
+      margin: 1rem auto; /* Adjust margin for smaller screens */
+  }
+
+  .hlheading {
+      font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .hlsubheading {
+      font-size: 35px; /* Adjust font size for smaller screens */
+      line-height: 40px; /* Adjust line height for smaller screens */
+  }
+
+  .hldesc {
+      width: 100%; /* Make the description full width */
+      margin-top: 0.5rem; /* Adjust margin for smaller screens */
+  }
+
+  .redbtn {
+      padding: 0.5rem 1.5rem; /* Adjust padding for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .hr {
+      margin-right: 0; /* Remove right margin for smaller screens */
+  }
+
+  .myimg {
+      padding: 2rem; /* Adjust padding for smaller screens */
+      margin-right: 0; /* Remove margin for smaller screens */
+      margin-top: 1rem; /* Adjust margin for smaller screens */
+      animation: none; /* Disable animation for smaller screens */
+  }
+
+  .hr .myimg img {
+      height: auto; /* Make the image responsive */
+      width: 100%; /* Make the image full width */
+  }
+
+  /* Other animation adjustments can be made similarly for responsiveness */
+
+  .dot,
+  .cube,
+  .circle,
+  .zigzag,
+  .plus {
+      display: none; /* Hide these animated elements on smaller screens */
+  }
+}
+
   .project-section{
     background-color: rgb(231,231,231);
     margin-top:4rem;
